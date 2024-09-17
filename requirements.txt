@@ -1,0 +1,11 @@
+pypdf
+PyPDF2
+python-dotenv
+langchain
+langchain-community
+langchain-openai
+google-auth
+qdrant-client
+langchain-qdrant
+streamlit
+

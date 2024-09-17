@@ -1,0 +1,5 @@
+venv/
+.env
+TO_EMBED/
+
+sp-controlfinanza-plygrd-4e1f58185d71-service-account.json
