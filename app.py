@@ -19,7 +19,7 @@ def get_vector_store():
 
     vector_store = Qdrant(
         client=client, 
-        collection_name=os.getenv("QDRANT_COLLECTION_NAME_2"), 
+        collection_name=os.getenv("QDRANT_COLLECTION_NAME2"), 
         embeddings=embeddings,
     )
     
@@ -48,6 +48,8 @@ def main():
         answer = qa.run(user_question)
         st.write(f"Answer: {answer}")
     
+
+
         
 if __name__ == '__main__':
     main()

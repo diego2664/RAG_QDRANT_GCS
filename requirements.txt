@@ -3,9 +3,10 @@ PyPDF2
 python-dotenv
 langchain
 langchain-community
+langchain-google-community
 langchain-openai
 google-auth
 qdrant-client
 langchain-qdrant
 streamlit
-
+google-cloud-storage
